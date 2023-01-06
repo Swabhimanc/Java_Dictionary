@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane disable="false" maxHeight="509.0" maxWidth="777.0" minHeight="509.0" minWidth="777.0" scaleShape="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.google_dictionary.DictionaryPageController">
+
+    <children>
+
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="51.0" layoutY="42.0" prefHeight="72.0" prefWidth="676.0" text="GOOGLE WORD DICTIONARY" textAlignment="CENTER" textFill="#f82828" textOverrun="WORD_ELLIPSIS" underline="true">
+            <font>
+                <Font name="Courier New" size="43.0" />
+            </font>
+        </Label>
+
+        <TextField fx:id="textBox" layoutX="51.0" layoutY="146.0" opacity="1" prefHeight="52.0" prefWidth="488.0" promptText="Enter Your Word Here">
+            <font>
+                <Font name="Arial" size="23.0" />
+            </font>
+        </TextField>
+
+        <Button fx:id="search" layoutX="559.0" layoutY="146.0" mnemonicParsing="false" onAction="#searchButton" prefHeight="52.0" prefWidth="168.0" text="Search" textFill="#312757">
+            <font>
+                <Font name="HP Simplified" size="26.0" />
+            </font>
+        </Button>
+
+        <TextArea fx:id="textArea" editable="false" layoutX="51.0" layoutY="224.0" opacity="0.6" prefHeight="247.0" prefWidth="676.0" promptText="Meaning Output Here" wrapText="true">
+            <font>
+                <Font name="Microsoft Sans Serif" size="22.0" />
+            </font>
+        </TextArea>
+
+    </children>
+</AnchorPane>
